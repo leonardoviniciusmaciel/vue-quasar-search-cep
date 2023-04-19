@@ -1,43 +1,35 @@
 # CEP Fácil (vue-quasar-search-cep)
 
-A project made with Vue and Quasar.
+Este é um projeto Single Page Application (SPA) criado com Vue.js e Quasar Framework, que permite que o usuário encontre seu endereço ao inserir o CEP. O aplicativo utiliza Vue Router para navegação, SCSS para estilização e Axios para realizar chamadas de API.
 
-## Install the dependencies
+## Instalação
+
+Para instalar as dependências do projeto, execute o seguinte comando na raiz do projeto:
 
 ```bash
-yarn
-# or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Como executar
+
+Para iniciar o app em modo de desenvolvimento, execute o seguinte comando:
 
 ```bash
 quasar dev
 ```
 
-### Lint the files
+O aplicativo será executado em http://localhost:8080.
 
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-### Format the files
-
-```bash
-yarn format
-# or
-npm run format
-```
-
-### Build the app for production
+## Buildando para produção
 
 ```bash
 quasar build
 ```
 
-### Customize the configuration
+## Tecnologias utilizadas
 
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+- [Vue.js](https://vuejs.org/)
+- [Quasar](https://www.youtube.com/watch?v=M421fR3TYxg)
+- [Vue Router](https://router.vuejs.org/)
+- [Axios](https://axios-http.com/)
+- [SCSS (SASS)](https://sass-lang.com/)
