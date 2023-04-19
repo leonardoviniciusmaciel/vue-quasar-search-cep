@@ -53,6 +53,7 @@ module.exports = configure(function (/* ctx */) {
 				node: "node16",
 			},
 
+			publicPath: "vue-quasar-search-cep",
 			vueRouterMode: "history", // available values: 'hash', 'history'
 			// vueRouterBase,
 			// vueDevtools,
